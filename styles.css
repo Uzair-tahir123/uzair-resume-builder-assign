@@ -1,0 +1,144 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #1ab4a7;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #0c0b0b;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d0d4df;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #0e0d0d;
+    background-color: #f9f9fb;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #2d3a61;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2d3a61;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #1e2749;
+  }
+  
+  button + button {
+    margin-left: 4%;
+  }
+  
+  /* Resume Preview Styling */
+  .resume-preview {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    color: #2d3a61;
+  }
+  
+  .resume-preview h2 {
+    font-size: 24px;
+    color: #2d3a61;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d0d4df;
+    padding-bottom: 10px;
+  }
+  
+  .resume-preview h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+    border-bottom: 1px solid #e0e3e8;
+    padding-bottom: 8px;
+  }
+  
+  .resume-preview p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button + button {
+      margin-left: 0;
+    }
+  }
+  
